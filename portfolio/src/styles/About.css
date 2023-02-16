@@ -3,6 +3,7 @@ div {
     background-color: #800000;
     height: 100%;
     width: 100%;
+    
   }
 
   .words {
@@ -17,3 +18,21 @@ div {
     color: white;
     text-shadow: 2px 2px 4px #000000;
   }
+  .about-container {
+    background-image: url("../image/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+ 
+  h1, .words {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+  

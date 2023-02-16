@@ -2,9 +2,11 @@ import React from "react";
 import '../styles/Navbar.css';
 
 
+
 export default function NavTabs({ setcurrentPage }) {
     const handlePageChange = (page) => setcurrentPage(page);
     return (
+        
         <nav class="navbar">
             <ul className="nav nav-tabs">
                 <li className="nav-item">
@@ -33,6 +35,7 @@ export default function NavTabs({ setcurrentPage }) {
                 </li>
             </ul>
         </nav>
+        
     );
 }
 
